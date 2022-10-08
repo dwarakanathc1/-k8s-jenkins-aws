@@ -10,4 +10,9 @@ public class JhooqDockerDemoController {
     public String hello() {
         return "Hello - Jhooq-k8s i Have updated the message";
     }
+    
+    @GetMapping("/test")
+    public String hello() {
+        return "Hello - Jhooq-k8s i Have updated the message";
+    }
 }
