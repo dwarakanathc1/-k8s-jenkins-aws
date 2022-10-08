@@ -13,6 +13,6 @@ public class JhooqDockerDemoController {
     
     @GetMapping("/test")
     public String test() {
-        return "Hello - Jhooq-k8s i Have updated the message";
+        return "This is auto commit from git to build genkins pipeline :0 check this again";
     }
 }
